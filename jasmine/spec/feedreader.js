@@ -116,9 +116,8 @@ $(function () {
             });
         });
 
-        it('is different from old', function (done) {
+        it('is different from old', function () {
             expect($('.feed').html()).not.toBe(oldFeed);
-            done();
         });
     });
 }());
